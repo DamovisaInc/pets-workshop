@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "debug": "node node_modules/.bin/next dev",
     "build": "next build",
     "start": "next start",
     "cypress:headless": "cypress run",
